@@ -1,0 +1,175 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    text-rendering: optimizeLegibility;
+    min-width: 1600px;
+}
+
+body {}
+
+.header {
+    user-select: none;
+    text-align: center;
+    color: #f2f1f1;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(/img/headerBG.png);
+    height: 945px;
+}
+
+.row {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.nav {
+    display: inline-block;
+    border-bottom: 1px solid #676767;
+    height: 90px;
+    padding: 0 auto;
+}
+
+
+.logo {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -10px;
+    float: left;
+    cursor: pointer;
+}
+
+.menu {
+    float: right;
+    word-spacing: 66px;
+    margin-top: 36px;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    border-bottom: solid 3px white;
+    padding-bottom: 34px;
+}
+
+.navBody {
+    position: absolute;
+    padding-top: 282px;
+    padding-left: 408px;
+}
+
+.navBody h1 {
+    font-size: 68px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.navBody h2 {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 47px;
+    letter-spacing: 2px;
+}
+
+/*-----------------members--------------------*/
+
+.membersLine {
+    position: relative;
+    display: flex;
+    overflow-x: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8));
+    z-index: ;
+}
+
+.buttonMember {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #f2f1f1;
+    border: none;
+    width: 900px;
+    transform: skewX(-60deg);
+    cursor: pointer;
+}
+
+.buttonMember:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    transition-timing-function: linear;
+}
+
+.membersLeft {
+    float: left;
+    width: 842px;
+    height: 120px;
+    margin-left: -10px;
+    transform: skewX(-10deg);
+    background: #203747;
+}
+
+.membersRight {
+    height: 120px;
+    margin-right: -10px;
+    background: #2fac6c;
+    width: 842px;
+    transform: skewX(-10deg);
+    text-transform: skewX(10deg);
+}
+
+
+/*----------------domain-----------------*/
+
+.domain {
+    height: 575px;
+    overflow: hidden;
+}
+
+div.domainText h2 {
+    margin-top: 85px;
+    margin-left: 400px;
+    margin-bottom: 25px;
+}
+
+div.domainText p {
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+
+form.domain{
+    width: 900px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+button.left{
+    margin-left: 5px;
+    width: 80px;
+    height: 50px;
+}
+
+button.right{
+    width: 80px;
+    height: 50px;
+}
+
+input.domainInput{
+    width: 720px;
+    height: 50px;
+}
